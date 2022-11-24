@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<style>
+	body {
+		background-color: lightblue;
+		font-family: roboto;
+	}
+	h1 {
+		color: blue;
+	}
+	p {
+		color: brown;
+	}
+	td {
+		color: red;
+		font-family: roboto;
+	}
+	table {
+		border: 2px solid green;
+		padding: 30px;
+	}
+	ul {
+		border: 2px solid yellow;
+		padding: 30px;
+	}
+	#pozaprofil {
+		border-radius: 25px;
+		width: 600px;
+		height: 400px;
+		border-style: outset;
+	}
+	img:hover {
+		opacity: 0.5;
+	}
+
+	</style>
+		<title>Descriere Erdei Tudor</title>
+	</head>
+
+	<body>
+		<body id="body" onload="AddNewItem()">
+		<script src="ex1.js"></script>
+		<h1 id="NumePrenume">Erdei Tudor</h1>
+		<img id="pozaprofil" src="058A6758.jpg" width="600px" height="400px">
+		<p>erdei.ra.tudor@student.utcluj.ro</p>
+		<p>"Câinii ursu, trece latră"</p>
+		<h2>Educație</h2>
+		<table id="tabelEducatie">
+			<tbody><tr>
+				<td id="realizare_r1">Informatică aplicată, anul I, sem 1:</td>
+				<td id="link_r1">https://el.el.obs.utcluj.ro/site/2021_2022/tst/PDF/TST06.00.pdf</td>
+			</tr>
+			<tr>
+				<td id="realizare_r2">Programarea calculatoarelor si limbaje de programare I, anul I, sem 1:</td>
+				<td id="link_r2">https://el.el.obs.utcluj.ro/site/2021_2022/tst/PDF/TST04.00.pdf</td>
+			</tr>
+			<tr>
+				<td id="realizare_r3">Tehnologii web si baze de date, anul III, sem 5:</td>
+				<td id="link_r3">https://el.el.obs.utcluj.ro/site/2021_2022/tst/PDF/TST35.00.pdf</td>
+			</tr>
+		</tbody>
+	</table>
+	<h2>Pasiuni</h2>
+	<ul>
+		<li>Programare</li>
+		<li>Citit</li>
+		<li>Editare video</li>
+	</ul>
+	<h3 id="birthdate"></h3>
+	<button><a href="coperta.html">Back</a></button>
+	<button type="button" onclick="changeProfile()">Alta viata</button>
+	</body>
+<html>

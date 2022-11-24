@@ -1,0 +1,29 @@
+body {
+		background-color: lightblue;
+	}
+	h1 {
+		color: blue;
+		font-family: roboto;
+	}
+	p {
+		color: brown;
+	}
+	td {
+		color: red;
+		font-family: roboto;
+	}
+	table {
+		border: 2px solid green;
+		padding: 30px;
+	}
+	ul {
+		border: 2px solid yellow;
+		padding: 30px;
+	}
+	#pozaprofil {
+		border-radius: 25px;
+		border-style: outset;
+	}
+	img:hover {
+		opacity: 0.5;
+	}

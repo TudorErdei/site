@@ -1,0 +1,39 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.btn-gradient-1 {
+	background: linear-gradient(white, white) padding-box, linear-gradient(to right, darkblue, darkorchid) border-box;
+	border-radius: 50em;
+	border: 4px solid transparent;
+}
+
+#pozacoperta {
+	border-radius: 25px;
+}
+
+
+.gradient-text {
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+	background-image: linear-gradient(to right, #405de6 0%, #5851db 5%, #833ab4 7%, #c13584 10%, #e1306c 61%);
+	font-family: roboto;
+	font-size: 30px;
+}
+
+.gradient-text2 {
+	position: absolute;
+	bottom: 20px;
+	width: 100%;
+	text-align: center;
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+	background-image: linear-gradient(to right, #405de6 0%, #5851db 5%, #833ab4 7%, #c13584 10%, #e1306c 61%);
+	font-family: roboto;
+	font-size: 30px;
+}
